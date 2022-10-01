@@ -1,0 +1,41 @@
+.text-a {
+  color: whitesmoke;
+}
+
+.text-a:hover {
+  color: #247032;
+}
+
+li {
+  list-style-type: none;
+}
+
+.checkout-button {
+  width: fit-content;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+  color: #309543;
+  border: 1px solid #309543;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(245, 245, 245, 0.199);
+  }
+}
+
+.social-profile {
+  font-size: 35px;
+  color: whitesmoke;
+
+  &:hover {
+    color: #309543;
+  }
+}
+
+.dividers {
+  height: 1px;
+  width: 100%;
+  background-color: #309543;
+  align-self: center;
+}
