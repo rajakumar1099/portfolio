@@ -28,10 +28,10 @@
       >
         Hi, my name is
       </p>
-      <h2 style="color: #cccccc">Rajakumar</h2>
+      <h2 style="color: whitesmoke">Rajakumar</h2>
       <h2 style="color: #309543">Front-End Developer</h2>
       <div class="col-md-12">
-        <p style="color: #cccccc">
+        <p style="color: whitesmoke">
           I have a Bachelor's degree majored in Electronics and Communication
           Engineering. Currently I am focused on learning JavaScript Full Stack
           Web Development.
@@ -70,30 +70,9 @@
       />
     </div>
   </div>
-  <section id="skills">
-    <app-divider title="Tech Stack"></app-divider>
-    <div class="w-100 col-md-8 d-flex flex-row justify-content-between">
-      <div class="skills-icons" *ngFor="let skill of skills">
-        <img [src]="skill.icon" />
-        <p>{{ skill.name }}</p>
-      </div>
-    </div>
-  </section>
-  <section id="projects">
-    <app-divider title="Some Things I’ve Built"></app-divider>
-    <app-projects></app-projects>
-  </section>
-  <section id="contact">
-    <app-divider title="Get In Touch"></app-divider>
-    <ul class="d-flex gap-5 justify-content-center p-3" style="width: 100%">
-      <li
-        class="d-flex justify-center items-center"
-        *ngFor="let contactItem of contact"
-      >
-        <a [href]="contactItem.href" target="_blank">
-          <fa-icon class="social-profile" [icon]="contactItem.icon"></fa-icon>
-        </a>
-      </li>
-    </ul>
-  </section>
+  <app-skills></app-skills>
+  <app-projects></app-projects>
+  <footer class="footer mt-auto">
+    <app-contacts></app-contacts>
+  </footer>
 </div>

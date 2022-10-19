@@ -1,0 +1,24 @@
+<section id="projects">
+  <app-divider title="Some Things I’ve Built"></app-divider>
+  <div class="row p-3" style="height: 250px">
+    <div
+      class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 h-100"
+      *ngFor="let project of projects"
+    >
+      <div class="col p-3">
+        <h1>{{ project.name }}</h1>
+        <div class="p-3" style="background-color: #051830; border-radius: 10px">
+          <p>{{ project.description }}</p>
+          <div class="col d-flex" style="gap: 20px; justify-content: end">
+            <a [href]="project.github" target="_blank">
+              <fa-icon class="icons" [icon]="icons.github" hre></fa-icon>
+            </a>
+            <a [href]="project.live" target="_blank">
+              <fa-icon class="icons" [icon]="icons.desktop"></fa-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -7,13 +7,17 @@ import { MainComponent } from './main/main.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { DividerComponent } from './divider/divider.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     DividerComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    SkillsComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
