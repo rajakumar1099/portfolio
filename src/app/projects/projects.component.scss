@@ -1,0 +1,22 @@
+p {
+  font-size: 14px;
+  text-align: start;
+  font-family: "Roboto Mono", monospace;
+  color: whitesmoke;
+}
+
+h1 {
+  font-size: 18px;
+  text-align: start;
+  font-family: "Roboto Mono", monospace;
+  color: whitesmoke;
+}
+
+.icons {
+  font-size: 20px;
+  color: whitesmoke;
+
+  &:hover {
+    color: #309543;
+  }
+}

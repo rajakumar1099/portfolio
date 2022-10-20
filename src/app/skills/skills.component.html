@@ -1,0 +1,15 @@
+<section id="skills">
+  <app-divider title="Tech Stack"></app-divider>
+  <div class="container py-3">
+    <div class="row" style="justify-content: center;">
+      <div
+        class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 skills-icons"
+        style="width: fit-content;"
+        *ngFor="let skill of skills"
+      >
+        <img [src]="skill.icon" />
+        <p>{{ skill.name }}</p>
+      </div>
+    </div>
+  </div>
+</section>
