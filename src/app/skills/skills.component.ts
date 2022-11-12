@@ -29,6 +29,10 @@ export class SkillsComponent implements OnInit {
       icon: 'assets/svg/typescript.svg',
     },
     {
+      name: 'jQuery',
+      icon: 'assets/svg/jquery.svg',
+    },
+    {
       name: 'Nodejs',
       icon: 'assets/svg/nodejs.svg',
     },
