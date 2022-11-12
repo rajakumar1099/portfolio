@@ -16,7 +16,14 @@ export class ProjectsComponent implements OnInit {
 
   public projects = [
     {
-      name: '1. Letgo Clone',
+      name: '1. WhatsApp Clone',
+      description:
+        'This project is built using Angular, Express.js, RxJX, Socket io, Postgres SQL, HTML5, CSS3 and Bootstrap. The users can chat realtime with other users same as WhatsApp',
+      github: 'https://github.com/rajakumar1099/whatsapp-clone',
+      live: 'https://ng-whatsapp-clone.netlify.app/',
+    },
+    {
+      name: '2. Letgo Clone',
       description:
         'This project is built using Angular, Express.js, RxJX, NgRX, HTML5, CSS3 and Bootstrap. This Site is Fully Responsive',
       github: 'https://github.com/rajakumar1099/letgo_angular',
